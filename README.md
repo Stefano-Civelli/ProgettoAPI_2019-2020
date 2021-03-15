@@ -17,7 +17,7 @@ I comandi supportati sono i seguenti, con la convenzione che ind1,ind2 indicano 
 
     Cancella le righe comprese tra ind1 ed ind2 (estremi inclusi), spostando
     verso l’alto le righe successive a quella di indirizzo ind2 (se ce ne sono).
-    La cancellazione di una riga che non esiste nel testo non ha alcun e↵etto.
+    La cancellazione di una riga che non esiste nel testo non ha alcun effetto.
 • (ind1,ind2)p
 
     Stampa le righe tra ind1 ed ind2, inclusi. Laddove non sia presente
@@ -34,7 +34,11 @@ I comandi supportati sono i seguenti, con la convenzione che ind1,ind2 indicano 
     Si noti che nel numero dei comandi da annullare si contano anche i comandi che non hanno effetto
     (per esempio la cancellazione di un blocco di righe che non esistono).
 • (numero)r
-
+```
+# code block
+print '3 backticks or'
+print 'indent 4 spaces'
+``` 
 Annulla l’effetto di undo per un numero di comandi pari a numero a partire
 dalla versione corrente (funzione di redo). Si noti che numero deve essere
 un intero strettamente maggiore di zero. Si ha quindi che una sequenza
