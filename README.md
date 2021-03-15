@@ -2,7 +2,7 @@
 
 Final project for the Algorithm and Principles of Computer Science Course.
 
-##Requirements
+## Requirements
 
 Il progetto consiste nell’implementare un semplice editor di testi. L’editor considera un documento come una sequenza di righe, di dimensione arbitraria, numerate a partire da uno.
 
