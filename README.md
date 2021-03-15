@@ -65,6 +65,6 @@ caratteri.
 - terminal
 - sublime text
 - blocco note
-- Debugging: printf
+- Debugging: printf()
 
 
