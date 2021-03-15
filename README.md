@@ -10,7 +10,7 @@ I comandi supportati sono i seguenti, con la convenzione che ind1,ind2 indicano 
 
     Cambia il testo presente alle righe comprese tra ind1 ed ind2 (estremi
     inclusi). Il testo che segue il comando deve essere fatto di un numero di
-    righe pari a ind2-ind1+1. ind1 deve essere o un indirizzo e↵ettivamente
+    righe pari a ind2-ind1+1. ind1 deve essere o un indirizzo effettivamente
     presente nel testo, oppure il primo indirizzo dopo l’ultima riga presente
     nel testo (o 1 se il testo è ancora vuoto).
 • (ind1,ind2)d
@@ -42,14 +42,14 @@ un intero strettamente maggiore di zero. Si ha quindi che una sequenza
 di comandi del tipo
 10u
 5r
-è a tutti gli e↵etti equivalente al solo comando 5u. Similmente, la sequenza
+è a tutti gli effetti equivalente al solo comando 5u. Similmente, la sequenza
 12u
 3r
 2u
 7r
 mettere in
-equivale al comando 4u. Nel caso in cui il numero di comandi di cui e↵et-
-tuare il redo è superiore a quelli annullati correntemente, viene e↵ettuato
+equivale al comando 4u. Nel caso in cui il numero di comandi di cui effet-
+tuare il redo è superiore a quelli annullati correntemente, viene effettuato
 il numero massimo di redo possibili.
 Qui
 • q
@@ -63,8 +63,8 @@ necessario verificare la loro correttezza). Per esempio, non viene mai dato un
 comando c in cui è ind1 > ind2, o ind1 < 1, o ind1 non è né l’indirizzo di una
 riga presente nel testo, né l’indirizzo della prima riga dopo il testo. Similmente
 per gli altri comandi. Si faccia attenzione però al fatto che, in alcuni casi, il
-comando è ammesso, ma semplicemente non ha e↵etto; per esempio, è possibile
+comando è ammesso, ma semplicemente non ha effetto; per esempio, è possibile
 dare un comando d in cui ind1 non è l’indirizzo di una riga del testo, ma in
-questo caso il comando non ha alcun e↵etto sul testo.
+questo caso il comando non ha alcun effetto sul testo.
 
 ``` 
