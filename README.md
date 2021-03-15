@@ -1,5 +1,8 @@
 # ProgettoAPI_2019-2020
 
+Final project for the Algorithm and Principles of Computer Science Course.
+
+
 Il progetto consiste nell’implementare un semplice editor di testi. L’editor considera un documento come una sequenza di righe, di dimensione arbitraria, numerate a partire da uno.
 
 L’interfaccia dell’editor è costituita da comandi testuali, terminati da un carattere di “a capo”. I comandi possono essere seguiti da una porzione di testo, costituita da una o più righe, terminata da un carattere . (punto) che compare come unico carattere sulla riga successiva. I comandi sono costituiti da un’unica lettera, preceduta opzionalmente da uno o due numeri interi. L’interfaccia dell’editor è liberamente ispirata a quella del tradizionale editor ed.
