@@ -7,20 +7,24 @@ In alcuni comandi, gli interi che compaiono in essi rappresentano degli speci- f
 I comandi supportati sono i seguenti, con la convenzione che ind1,ind2 indicano due specificatori di indirizzo tali che ind1  ind2 e le parentesi tonde sono introdotte per semplicità di lettura di questo testo, ma non incluse nel comando:
 
 • (ind1,ind2)c
+
     Cambia il testo presente alle righe comprese tra ind1 ed ind2 (estremi
     inclusi). Il testo che segue il comando deve essere fatto di un numero di
     righe pari a ind2-ind1+1. ind1 deve essere o un indirizzo e↵ettivamente
     presente nel testo, oppure il primo indirizzo dopo l’ultima riga presente
     nel testo (o 1 se il testo è ancora vuoto).
 • (ind1,ind2)d
+
     Cancella le righe comprese tra ind1 ed ind2 (estremi inclusi), spostando
     verso l’alto le righe successive a quella di indirizzo ind2 (se ce ne sono).
     La cancellazione di una riga che non esiste nel testo non ha alcun e↵etto.
 • (ind1,ind2)p
+
     Stampa le righe tra ind1 ed ind2, inclusi. Laddove non sia presente
     una riga nel testo nella posizione da stampare, viene stampata una riga
     contenente il solo carattere ’.’ seguito da un “a capo”.
 • (numero)u
+
     Effettua l’annullamento (undo) di un numero di comandi (c o d) pari a quello specificato tra parentesi tonde (laddove numero è un intero strettamente maggiore di zero). Una sequenza di comandi di undo consecutivi annulla un numero di passi pari alla somma dei passi specificati in ognuno di essi. Se il numero di comandi di cui effettuare l’annullamento è superiore a quello dei comandi eseguiti, vengono annullati tutti i passi. L’esecuzione di un comando di modifica del testo (c, d) dopo un undo cancella gli effetti dei comandi annullati definitivamente. Si noti che nel numero dei comandi da annullare si contano anche i comandi che non hanno effetto
     (per esempio la cancellazione di un blocco di righe che non esistono).
 • (numero)r
