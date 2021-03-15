@@ -38,33 +38,7 @@ I comandi supportati sono i seguenti, con la convenzione che ind1,ind2 indicano 
 ```
 Annulla l’effetto di undo per un numero di comandi pari a numero a partire
 dalla versione corrente (funzione di redo). Si noti che numero deve essere
-un intero strettamente maggiore di zero. Si ha quindi che una sequenza
-di comandi del tipo
-10u
-5r
-è a tutti gli effetti equivalente al solo comando 5u. Similmente, la sequenza
-12u
-3r
-2u
-7r
-mettere in
-equivale al comando 4u. Nel caso in cui il numero di comandi di cui effet-
-tuare il redo è superiore a quelli annullati correntemente, viene effettuato
-il numero massimo di redo possibili.
-Qui
-• q
-Termina l’esecuzione dell’editor
-O
-0
+un intero strettamente maggiore di zero. 
 Una riga di testo fornita in ingresso all’editor può contenere al massimo 1024
 caratteri.
-Si assuma che all’editor vengano dati solo comandi corretti (non è quindi
-necessario verificare la loro correttezza). Per esempio, non viene mai dato un
-comando c in cui è ind1 > ind2, o ind1 < 1, o ind1 non è né l’indirizzo di una
-riga presente nel testo, né l’indirizzo della prima riga dopo il testo. Similmente
-per gli altri comandi. Si faccia attenzione però al fatto che, in alcuni casi, il
-comando è ammesso, ma semplicemente non ha effetto; per esempio, è possibile
-dare un comando d in cui ind1 non è l’indirizzo di una riga del testo, ma in
-questo caso il comando non ha alcun effetto sul testo.
-
 ``` 
