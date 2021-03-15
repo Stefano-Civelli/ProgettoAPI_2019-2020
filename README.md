@@ -42,8 +42,25 @@ un intero strettamente maggiore di zero.
 Una riga di testo fornita in ingresso all’editor può contenere al massimo 1024
 caratteri.
 ``` 
+
+## Test cases
+
+| Task            | Commands   | Time Limit | Memory limit |
+| --------------- | ---------- | ---------- | ------------ |
+| WriteOnly       | c          | 7.4 s      | 3.00 GiB     |
+| BulkReads       | c          | 1.250 s    | 240 MiB      |
+| TimeForAChange  | c, d       | 2.100 s    | 540 MiB      |
+| AlteringHistory | c, d, u    | 2.100 s    | 400 MiB      |
+| RollingBack     | c, d, u, r | 2.400 s    | 550 MiB      |
+| RollerCoaster   | c, d, u, r | 2.700 s    | 1.03 GiB     |
+| Laude           | c, d, u, r | 2.000 s    | 340 MiB      |
+
+
+
 ## Tools Used:
 - terminal
 - sublime text
 - blocco note
 - Debugging: printf
+
+
