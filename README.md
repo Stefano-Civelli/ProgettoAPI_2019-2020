@@ -42,3 +42,8 @@ un intero strettamente maggiore di zero.
 Una riga di testo fornita in ingresso all’editor può contenere al massimo 1024
 caratteri.
 ``` 
+## Tools Used:
+- terminal
+- sublime text
+- blocco note
+- Debugging: printf
